@@ -1,0 +1,75 @@
+.Header-container{
+    background-color: darkslategray;
+    color: white;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-bottom: 150px;
+}
+
+.Header-top{
+    display: flex;
+    justify-content:space-between;
+    flex:1;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+
+.Header-content{
+    display: flex;
+    justify-content: space-between;
+    flex:1;
+}
+
+.content-text{
+    width: 500px;
+    font-size: large;
+}
+
+img{
+    height: auto;
+    width: 450px;
+}
+
+.Random-information{
+    
+}
+
+.Quote-container{
+    background-color: lightgray;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+#quote{
+    width: 600px;
+}
+
+.Promotional-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Promotion-box{
+    background-color: lightskyblue;
+    color: white;
+    width: 500px;
+    height: auto;
+    margin: 50px;
+}
+
+.Footer-container{
+    background-color: darkslategray;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
