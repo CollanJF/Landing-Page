@@ -3,13 +3,23 @@
     color: white;
     padding-left: 300px;
     padding-right: 300px;
-    padding-bottom: 150px;
+    padding-bottom: 100px;
 }
 
 .Header-top{
     display: flex;
     justify-content:space-between;
     flex:1;
+}
+
+.Random-information>H2{
+    display: flex;
+    justify-content: center;
+}
+
+.images-container{
+    display: flex;
+    justify-content: center;
 }
 
 ul{
@@ -21,7 +31,10 @@ ul{
 .Header-content{
     display: flex;
     justify-content: space-between;
-    flex:1;
+}
+
+h1{
+    width: 300px;
 }
 
 .content-text{
@@ -34,9 +47,6 @@ img{
     width: 450px;
 }
 
-.Random-information{
-    
-}
 
 .Quote-container{
     background-color: lightgray;
@@ -58,11 +68,24 @@ img{
 }
 
 .Promotion-box{
-    background-color: lightskyblue;
+    background-color: darkslategray;
     color: white;
-    width: 500px;
+    width: 800px;
     height: auto;
     margin: 50px;
+    display: flex;
+    padding: 15px;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 8px;
+}
+
+button {
+    background-color: darkslategray;
+    border-color: white;
+    color: white;
+    width: 100px;
+    border-radius: 8px;
 }
 
 .Footer-container{
@@ -72,4 +95,9 @@ img{
     justify-content: center;
     align-items: center;
     color: white;
+}
+
+.image-text{
+    display: flex;
+    justify-content: center;
 }
